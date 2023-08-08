@@ -23,6 +23,7 @@ const preview: Preview = {
       themes: {
         light: "light",
         dark: "dark",
+        solarized: "solarized",
       },
       defaultTheme: "light",
     }),
