@@ -21,6 +21,14 @@ export const Primary: Story = {
     primary: true,
     label: 'Button',
   },
+  parameters: {
+  chromatic: {
+    modes: {
+      light: { theme: 'light' },
+      dark: { theme: 'dark' },
+    }
+  }
+}
 };
 
 export const Secondary: Story = {
