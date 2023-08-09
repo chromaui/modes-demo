@@ -41,6 +41,11 @@ export const Secondary: Story = {
   args: {
     label: 'Button',
   },
+  parameters: {
+    chromatic: {
+      viewports: [320, 1200],
+    }
+  }
 };
 
 export const Large: Story = {
