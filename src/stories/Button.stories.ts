@@ -22,13 +22,19 @@ export const Primary: Story = {
     label: 'Button',
   },
   parameters: {
-  chromatic: {
-    modes: {
-      light: { theme: 'light' },
-      dark: { theme: 'dark' },
+    chromatic: {
+      modes: {
+        'MY SUPER LIGHT THEME': {
+          theme: 'light',
+          viewport: '200',
+          language: 'css',
+
+        },
+        dark: { theme: 'dark' },
+        dark2: { theme: 'dark' },
+      }
     }
   }
-}
 };
 
 export const Secondary: Story = {

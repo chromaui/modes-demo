@@ -9,7 +9,8 @@
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "chromatic": "CHROMATIC_INDEX_URL=https://www.dev-chromatic.com npx chromatic --project-token=chpt_be695d05f318415"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -39,5 +40,7 @@
     "tailwindcss": "^3.3.2",
     "typescript": "^5.0.2",
     "vite": "^4.3.9"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "ch-modes-demo@0.0.0"
 }
