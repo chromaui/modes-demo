@@ -1,30 +1,33 @@
-import type { Preview } from "@storybook/react";
+import type { Preview } from '@storybook/react';
 
-import { withThemeByClassName } from "@storybook/addon-styling";
+import { withThemeByClassName } from '@storybook/addon-themes';
 
-/* TODO: update import to your tailwind styles file */
-import "../src/index.css";
+/* import to your tailwind styles file */
+import '../src/index.css';
 
 const preview: Preview = {
   parameters: {
-    actions: { argTypesRegex: "^on[A-Z].*" },
-    controls: {
-      matchers: {
-        color: /(background|color)$/i,
-        date: /Date$/,
+    viewport: {
+      viewports: {
+        small: { name: 'Small', styles: { width: '640px', height: '100%' } },
+        medium: { name: 'Medium', styles: { width: '768px', height: '100%' } },
+        large: { name: 'Large', styles: { width: '1024px', height: '100%' } },
       },
     },
+    backgrounds: {
+      values: [
+        { name: 'light', value: '#fff' },
+        { name: 'dark', value: '#1E293B' },
+      ],
+    },
   },
-
   decorators: [
-    // Adds theme switching support.
-    // NOTE: requires setting "darkMode" to "class" in your tailwind config
     withThemeByClassName({
       themes: {
-        light: "light",
-        dark: "dark",
+        light: 'light',
+        dark: 'dark',
       },
-      defaultTheme: "light",
+      defaultTheme: 'light',
     }),
   ],
 };
