@@ -23,20 +23,19 @@ export const Primary: Story = {
   },
   parameters: {
     chromatic: {
-      viewports: [320],
-    }
-       
-      // modes: {
-      //   'MY SUPER LIGHT THEME': {
-      //     theme: 'light',
-      //     viewport: '200',
-      //     language: 'css',
-
-      //   },
-      //   dark: { theme: 'light' },
-      //   dark2: { theme: 'dark' },
-      // }
+    //   viewports: [320],
     // }
+       
+      modes: {
+        '320px': {
+          viewport: '320',
+        },
+        'dark': {
+          theme: 'dark',
+          viewport: '320',
+        },
+      }
+    }
   }
 };
 
