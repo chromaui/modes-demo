@@ -23,14 +23,13 @@ export const Primary: Story = {
   },
   parameters: {
     chromatic: {
-      // viewports: [666],
       modes: {
         '666px': {
           viewport: 666
         },
         'mobile': {
           viewport: 666,
-          lang: 'en',
+          lang: 'es',
         }
       }
     }
