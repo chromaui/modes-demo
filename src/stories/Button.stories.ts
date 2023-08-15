@@ -30,6 +30,9 @@ export const Primary: Story = {
         'mobile': {
           viewport: 666,
           lang: 'es',
+        },
+        'dark': {
+          viewport: 666,
         }
       }
     }
