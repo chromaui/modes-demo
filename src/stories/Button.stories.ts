@@ -23,6 +23,9 @@ export const Primary: Story = {
   },
   parameters: {
     chromatic: {
+      viewports: [320],
+    }
+       
       // modes: {
       //   'MY SUPER LIGHT THEME': {
       //     theme: 'light',
@@ -33,7 +36,7 @@ export const Primary: Story = {
       //   dark: { theme: 'light' },
       //   dark2: { theme: 'dark' },
       // }
-    }
+    // }
   }
 };
 
