@@ -27,6 +27,9 @@ export const Primary: Story = {
       modes: {
         '666px': {
           viewport: 666
+        },
+        'mobile': {
+          viewport: 666
         }
       }
     }
