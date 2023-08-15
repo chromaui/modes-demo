@@ -23,43 +23,32 @@ export const Primary: Story = {
   },
   parameters: {
     chromatic: {
-      // viewports: [320, 640],
-        modes: {
-          '320px': {
-            viewport: '320',
-          },
-          '640px': {
-            viewport: '980',
-          },
-          'mobile': {
-            viewport: '640',
-          },
-        }
+      viewports: [666],
     }
   }
 };
 
-export const Secondary: Story = {
-  args: {
-    label: 'Button',
-  },
-  parameters: {
-    chromatic: {
-      viewports: [320, 1200],
-    }
-  }
-};
+// export const Secondary: Story = {
+//   args: {
+//     label: 'Button',
+//   },
+//   parameters: {
+//     chromatic: {
+//       viewports: [320, 1200],
+//     }
+//   }
+// };
 
-export const Large: Story = {
-  args: {
-    size: 'large',
-    label: 'Button',
-  },
-};
+// export const Large: Story = {
+//   args: {
+//     size: 'large',
+//     label: 'Button',
+//   },
+// };
 
-export const Small: Story = {
-  args: {
-    size: 'small',
-    label: 'Button',
-  },
-};
+// export const Small: Story = {
+//   args: {
+//     size: 'small',
+//     label: 'Button',
+//   },
+// };
