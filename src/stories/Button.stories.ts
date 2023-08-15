@@ -29,7 +29,8 @@ export const Primary: Story = {
           viewport: 666
         },
         'mobile': {
-          viewport: 666
+          viewport: 666,
+          lang: 'en',
         }
       }
     }
