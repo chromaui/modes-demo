@@ -30,7 +30,7 @@ export const Primary: Story = {
           language: 'css',
 
         },
-        dark: { theme: 'dark' },
+        dark: { theme: 'light' },
         dark2: { theme: 'dark' },
       }
     }
