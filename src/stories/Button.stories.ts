@@ -22,30 +22,31 @@ export const Primary: Story = {
     label: 'Button',
   },
   parameters: {
+    viewports: [320, 640],
     chromatic: {
       modes: {
-        '666px': {
-          viewport: 666
+        '320px': {
+          viewport: 320
         },
-        'mobile': {
-          viewport: 666,
-          lang: 'es',
-        },
-        'dark': {
-          viewport: 666,
-        }
+        // 'mobile': {
+        //   viewport: 666,
+        //   lang: 'es',
+        // },
+        // 'dark': {
+        //   viewport: 666,
+        // }
       }
     }
   }
 };
 
-export const Secondary: Story = {
-  args: {
-    label: 'Button',
-  },
-  parameters: {
-    chromatic: {
-      viewports: [320, 1200],
-    }
-  }
-};
+// export const Secondary: Story = {
+//   args: {
+//     label: 'Button',
+//   },
+//   parameters: {
+//     chromatic: {
+//       viewports: [320, 1200],
+//     }
+//   }
+// };
