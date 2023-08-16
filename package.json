@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "chromatic": "CHROMATIC_INDEX_URL=https://www.dev-chromatic.com npx chromatic --project-token=chpt_be695d05f318415",
+    "chromatic": "CHROMATIC_INDEX_URL=https://www.dev-chromatic.com npx chromatic --project-token=chpt_3ac66e43569aa8b",
     "chromatic-staging": "CHROMATIC_INDEX_URL=https://www.staging-chromatic.com npx chromatic --project-token=chpt_39be6157bb85bfa"
   },
   "dependencies": {
