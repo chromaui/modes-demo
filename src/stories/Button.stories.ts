@@ -22,8 +22,9 @@ export const Primary: Story = {
     label: 'Button',
   },
   parameters: {
-    viewports: [320, 640],
     chromatic: {
+    viewports: [320, 640],
+    
       modes: {
         '320px': {
           viewport: 320
