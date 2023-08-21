@@ -45,9 +45,9 @@ export const Secondary: Story = {
   args: {
     label: 'Button',
   },
-  parameters: {
-    chromatic: {
-      viewports: [980],
-    }
-  }
+  // parameters: {
+  //   chromatic: {
+  //     viewports: [980],
+  //   }
+  // }
 };
