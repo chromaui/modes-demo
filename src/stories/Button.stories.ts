@@ -41,13 +41,13 @@ export const Primary: Story = {
   }
 };
 
-// export const Secondary: Story = {
-//   args: {
-//     label: 'Button',
-//   },
-//   parameters: {
-//     chromatic: {
-//       viewports: [320, 1200],
-//     }
-//   }
-// };
+export const Secondary: Story = {
+  args: {
+    label: 'Button',
+  },
+  parameters: {
+    chromatic: {
+      viewports: [980],
+    }
+  }
+};
