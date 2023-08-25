@@ -1,10 +1,10 @@
-import type { Meta, StoryObj } from '@storybook/react';
+import type { Meta, StoryObj } from "@storybook/react";
 
-import { ArticleCard } from './ArticleCard';
+import { ArticleCard } from "./ArticleCard";
 
 // More on how to set up stories at: https://storybook.js.org/docs/react/writing-stories/introduction
 const meta = {
-  title: 'Example/ArticleCard',
+  title: "Example/ArticleCard",
   component: ArticleCard,
 } satisfies Meta<typeof ArticleCard>;
 
@@ -13,19 +13,29 @@ type Story = StoryObj<typeof meta>;
 
 export const Base: Story = {
   args: {
-    title: 'Can coffee make you a better developer?',
+    title: "Can coffee make you a better developer?",
     excerpt:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.',
-    image: '/card-left.jpg',
-    author: { name: 'Jonathan Reinink', image: '/jonathan.jpg' },
-    publishDate: '2023-08-18T04:00:00.000Z',
-    type: 'FREE',
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
+    image: "/card-left.jpg",
+    author: { name: "Jonathan Reinink", image: "/jonathan.jpg" },
+    publishDate: "2023-08-18T04:00:00.000Z",
+    type: "FREE",
   },
 };
 
 export const MembersOnly: Story = {
   args: {
     ...Base.args,
-    type: 'MEMBERS_ONLY',
+    type: "MEMBERS_ONLY",
+  },
+  parameters: {
+    chromatic: {
+      modes: {
+        darkGrid: {
+          theme: "dark",
+          variantsAddon: true,
+        },
+      },
+    },
   },
 };
