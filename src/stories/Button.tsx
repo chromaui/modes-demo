@@ -46,7 +46,7 @@ const getSizeClasses = (size: string) => {
 
 const getModeClasses = (isPrimary: ButtonProps['primary']) =>
   isPrimary
-    ? 'text-slate-100 bg-blue-500 border-blue-500 dark:bg-sky-600 dark:border-sky-600'
+    ? 'text-slate-100 bg-blue-200 border-blue-500 dark:bg-sky-600 dark:border-sky-600'
     : 'text-slate-800 bg-transparent border-slate-400 dark:text-slate-100 dark:border-slate-100';
 
 const BASE_BUTTON_CLASSES =
