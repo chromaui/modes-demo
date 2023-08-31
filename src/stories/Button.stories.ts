@@ -23,26 +23,26 @@ export const Primary: Story = {
   },
   parameters: {
     chromatic: {
-    // viewports: [320, 640],
+    viewports: [320, 640],
 
-      modes: {
-        '320px': {
-          viewport: {
-            width: 320,
-          }
-        },
-        '640px': {
-          viewport: {
-            width: 640,
-          }
-        },
-        'mobile': {
-          viewport: {
-            width: 320,
-          },
-          lang: 'es',
-        },
-      }
+    //   modes: {
+    //     '320px': {
+    //       viewport: {
+    //         width: 320,
+    //       }
+    //     },
+    //     '640px': {
+    //       viewport: {
+    //         width: 640,
+    //       }
+    //     },
+    //     'mobile': {
+    //       viewport: {
+    //         width: 320,
+    //       },
+    //       lang: 'es',
+    //     },
+    //   }
     }
   }
 };
