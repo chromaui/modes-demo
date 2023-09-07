@@ -21,17 +21,14 @@ const preview: Preview = {
         { name: 'dark', value: '#1E293B' },
       ],
     },
-    parameters: {
-      chromatic: {
-        //🔶 Test each story for ArticleCard in two modes
-        modes: {
-          'dark large': allModes['dark large'],
-          'dark medium': allModes['dark medium'],
-          'dark small': allModes['dark small'],
-          'light large': allModes['light large'],
-          'light medium': allModes['light medium'],
-          'light small': allModes['light small'],
-        },
+    chromatic: {
+      modes: {
+        'dark large': allModes['dark large'],
+        'dark medium': allModes['dark medium'],
+        'dark small': allModes['dark small'],
+        'light large': allModes['light large'],
+        'light medium': allModes['light medium'],
+        'light small': allModes['light small'],
       },
     },
   },
