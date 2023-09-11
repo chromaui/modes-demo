@@ -24,10 +24,8 @@ const preview: Preview = {
     chromatic: {
       modes: {
         'dark large': allModes['dark large'],
-        'dark medium': allModes['dark medium'],
         'dark small': allModes['dark small'],
         'light large': allModes['light large'],
-        'light medium': allModes['light medium'],
         'light small': allModes['light small'],
       },
     },

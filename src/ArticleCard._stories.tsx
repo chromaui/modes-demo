@@ -1,10 +1,19 @@
 import type { Meta, StoryObj } from '@storybook/react';
+import { allModes } from '../.storybook/modes';
 
 import { ArticleCard } from './ArticleCard';
 
 const meta = {
   title: 'Example/ArticleCard',
   component: ArticleCard,
+  parameters: {
+    chromatic: {
+      modes: {
+        'dark medium': allModes['dark medium'],
+        'light medium': allModes['light medium'],
+      },
+    },
+  },
 } satisfies Meta<typeof ArticleCard>;
 
 export default meta;
