@@ -57,7 +57,7 @@ const BASE_BUTTON_CLASSES =
  */
 export const Button = ({
   primary = false,
-  size = 'medium',
+  size = 'small',
   label,
   className,
   ...props
